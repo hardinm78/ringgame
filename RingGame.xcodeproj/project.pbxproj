@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E9E663F21CA891E000220A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9E663E21CA891E000220A3 /* AppDelegate.swift */; };
+		8E9E664121CA891E000220A3 /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9E664021CA891E000220A3 /* GameVC.swift */; };
+		8E9E664421CA891E000220A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E9E664221CA891E000220A3 /* Main.storyboard */; };
+		8E9E664621CA891F000220A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E9E664521CA891F000220A3 /* Assets.xcassets */; };
+		8E9E664921CA891F000220A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E9E664721CA891F000220A3 /* LaunchScreen.storyboard */; };
+		8E9E665421CA91C7000220A3 /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9E665321CA91C7000220A3 /* GameData.swift */; };
+		8E9E665621CA922C000220A3 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9E665521CA922C000220A3 /* Player.swift */; };
+		8E9E665821CA98A8000220A3 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9E665721CA98A8000220A3 /* PlayerCell.swift */; };
+		8E9E665A21CBEB4D000220A3 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9E665921CBEB4D000220A3 /* RoundedButton.swift */; };
+		8E9E665D21CBEE05000220A3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9E665C21CBEE05000220A3 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E9E663B21CA891E000220A3 /* RingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E9E663E21CA891E000220A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E9E664021CA891E000220A3 /* GameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
+		8E9E664321CA891E000220A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E9E664521CA891F000220A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E9E664821CA891F000220A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E9E664A21CA891F000220A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E9E665321CA91C7000220A3 /* GameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
+		8E9E665521CA922C000220A3 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		8E9E665721CA98A8000220A3 /* PlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
+		8E9E665921CBEB4D000220A3 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		8E9E665C21CBEE05000220A3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E9E663821CA891E000220A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E9E663221CA891E000220A3 = {
+			isa = PBXGroup;
+			children = (
+				8E9E663D21CA891E000220A3 /* RingGame */,
+				8E9E663C21CA891E000220A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E9E663C21CA891E000220A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E9E663B21CA891E000220A3 /* RingGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E9E663D21CA891E000220A3 /* RingGame */ = {
+			isa = PBXGroup;
+			children = (
+				8E9E665B21CBEDE7000220A3 /* Utils */,
+				8E9E665021CA90BE000220A3 /* Model */,
+				8E9E665121CA90C8000220A3 /* View */,
+				8E9E665221CA90CF000220A3 /* Controller */,
+				8E9E663E21CA891E000220A3 /* AppDelegate.swift */,
+				8E9E664221CA891E000220A3 /* Main.storyboard */,
+				8E9E664521CA891F000220A3 /* Assets.xcassets */,
+				8E9E664721CA891F000220A3 /* LaunchScreen.storyboard */,
+				8E9E664A21CA891F000220A3 /* Info.plist */,
+			);
+			path = RingGame;
+			sourceTree = "<group>";
+		};
+		8E9E665021CA90BE000220A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8E9E665321CA91C7000220A3 /* GameData.swift */,
+				8E9E665521CA922C000220A3 /* Player.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8E9E665121CA90C8000220A3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8E9E665721CA98A8000220A3 /* PlayerCell.swift */,
+				8E9E665921CBEB4D000220A3 /* RoundedButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8E9E665221CA90CF000220A3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8E9E664021CA891E000220A3 /* GameVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8E9E665B21CBEDE7000220A3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8E9E665C21CBEE05000220A3 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E9E663A21CA891E000220A3 /* RingGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E9E664D21CA891F000220A3 /* Build configuration list for PBXNativeTarget "RingGame" */;
+			buildPhases = (
+				8E9E663721CA891E000220A3 /* Sources */,
+				8E9E663821CA891E000220A3 /* Frameworks */,
+				8E9E663921CA891E000220A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RingGame;
+			productName = RingGame;
+			productReference = 8E9E663B21CA891E000220A3 /* RingGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E9E663321CA891E000220A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Michael Hardin";
+				TargetAttributes = {
+					8E9E663A21CA891E000220A3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 8E9E663621CA891E000220A3 /* Build configuration list for PBXProject "RingGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E9E663221CA891E000220A3;
+			productRefGroup = 8E9E663C21CA891E000220A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E9E663A21CA891E000220A3 /* RingGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E9E663921CA891E000220A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E9E664921CA891F000220A3 /* LaunchScreen.storyboard in Resources */,
+				8E9E664621CA891F000220A3 /* Assets.xcassets in Resources */,
+				8E9E664421CA891E000220A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E9E663721CA891E000220A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E9E665621CA922C000220A3 /* Player.swift in Sources */,
+				8E9E665A21CBEB4D000220A3 /* RoundedButton.swift in Sources */,
+				8E9E665421CA91C7000220A3 /* GameData.swift in Sources */,
+				8E9E664121CA891E000220A3 /* GameVC.swift in Sources */,
+				8E9E665D21CBEE05000220A3 /* Constants.swift in Sources */,
+				8E9E663F21CA891E000220A3 /* AppDelegate.swift in Sources */,
+				8E9E665821CA98A8000220A3 /* PlayerCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E9E664221CA891E000220A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E9E664321CA891E000220A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E9E664721CA891F000220A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E9E664821CA891F000220A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E9E664B21CA891F000220A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E9E664C21CA891F000220A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E9E664E21CA891F000220A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RFR5R2MW37;
+				INFOPLIST_FILE = RingGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelhardin.RingGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E9E664F21CA891F000220A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RFR5R2MW37;
+				INFOPLIST_FILE = RingGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelhardin.RingGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E9E663621CA891E000220A3 /* Build configuration list for PBXProject "RingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E9E664B21CA891F000220A3 /* Debug */,
+				8E9E664C21CA891F000220A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E9E664D21CA891F000220A3 /* Build configuration list for PBXNativeTarget "RingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E9E664E21CA891F000220A3 /* Debug */,
+				8E9E664F21CA891F000220A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E9E663321CA891E000220A3 /* Project object */;
+}
